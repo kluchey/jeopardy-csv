@@ -190,6 +190,17 @@
       html += '</table>';
       gameDiv.innerHTML = html;
 
+      // 1. NEW: Render math for the Category headers right after creating the board
+      if (window.renderMathInElement) {
+        renderMathInElement(gameDiv, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ],
+            throwOnError: false
+        });
+      }
+
       // create team boxes and scoring widgets 
       renderTeamBoxContainer(teams); // teamBox.js
 
@@ -200,15 +211,26 @@
           clickSound.currentTime = 0;
           clickSound.play();
 
-          // ...inside your buildBoard function, in the td click handler...
           const cat = td.getAttribute('data-cat');
           const val = td.getAttribute('data-val');
           const { clue, answer } = boardData[cat][val];
+          
           clueDiv.textContent = clue;
           answerDiv.textContent = answer;
           answerDiv.style.display = 'none';
-          // Update only the label, not the whole header
           document.getElementById('modal-label').textContent = `${cat} for $${val}`;
+          
+          // 2. NEW: Render math inside the modal right after the text is updated
+          if (window.renderMathInElement) {
+            renderMathInElement(modal, {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "$", right: "$", display: false}
+                ],
+                throwOnError: false
+            });
+          }
+
           modal.style.display = 'flex';
           td.classList.add('used');
         });
