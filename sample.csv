@@ -1,0 +1,26 @@
+Category,Value,Clue,Answer
+$\times$ & $\div$ Powers,100,$2^3\cdot 2^8$,What is $2^{11}$ or $2048$?
+$\times$ & $\div$ Powers,200,$\frac{9^{10}}{9^7}\cdot 9^3$,What is $9^6$ or $531 431$?
+$\times$ & $\div$ Powers,300,$\frac{x^{10}\cdot x^9}{x\cdot x^7}$,What is $x^{11}$?
+$\times$ & $\div$ Powers,400,$\frac{a^4}{a^{-3}}\cdot\frac{b^{-2}}{b^4}$,What is $\frac{a}{b^2}$?
+$\times$ & $\div$ Powers,500,$\frac{x^9}{y^{-5}}\cdot\frac{y^{-6}}{x^5}$,What is $x^4\cdot y$?
+Power of a...?,100,$(3^{10})^5$,What is $3^{50}$?
+Power of a...?,200,The name for this rule:  $(xy)^a = x^ay^a$,What is the Power of a Product?
+Power of a...?,300,$(\frac{xy^2}{z})^3$,What is $\frac{x^3y^6}{z^3}$?
+Power of a...?,400,"The name for individual ""pieces"" when multiplying or dividing.",What are factors?
+Power of a...?,500,$(\frac12a^3b^{-1})^3$,What is $\frac14a^9b^{-3}$ or $\frac{a^3}{4b^3}$?
+Polynomials,100,The name for this type of polynomial:  $2x^2$,What is a monomial?
+Polynomials,200,The math name for this type of multiplying:  $2(x-3)=2x-6$,What is distributing?
+Polynomials,300,$\frac{(4r^2)(3r)}{2r}$,What is $6r^2$?
+Polynomials,400,True or False:  $\frac{\cancel{2}x-1}{\cancel{2}}=x-1$,What is False?
+Polynomials,500,$\frac34x(8-5x)$,What is $6x-\frac{15}{4}x^2$?
+Positive Exponents,100,Write using positive exponents only:  $5^{-2}$,What is $\frac{1}{5^2}$?
+Positive Exponents,200,Write using positive exponents only:  $\frac1{5^{-2}}$,What is $5^2$?
+Positive Exponents,300,Write using positive exponents only:  $\frac{5^{-3}}{5^{-2}}$,What is $\frac{1}{5^1}$ or $\frac15$?
+Positive Exponents,400,Write using positive exponents only:  $\frac{5^5}{5^{-2}}$,What is $5^7$?
+Positive Exponents,500,Write using positive exponents only:  $\frac{1}{5^{-3}\cdot 5^{-2}}$,What is $5^5$?
+Solving Equations,100,Solve for x:  $3(2x-5)=12$,What is $x=\frac92$?
+Solving Equations,200,Solve for x:  $\frac{x+1}{2}=34$,What is $x=67$?
+Solving Equations,300,Solve for x:  $\frac{x}{4}=\frac52$,What is $x=10$?
+Solving Equations,400,Solve for y:  $\frac{2}{y}=\frac{11}{5}$,What is $y=\frac{10}{11}$?
+Solving Equations,500,Solve for x:  $\frac{x-3}{2}=\frac{3x+2}{5}$,What is $x=-19$?
